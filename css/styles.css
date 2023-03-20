@@ -18,7 +18,11 @@
     --text-colour1: white;
     --text-colour2: #6f2232;
     --text-colour2: #950740;
-    --accent-colour: #c3073f;
+    --accent-colour1: #c3073f;
+    --accent-colour2: #E83C5A;
+    --accent-colour3: #FF6077;
+    --accent-colour4: #FF8295;
+    --accent-colour5: #FFA4B4;
 }
 
 html {
@@ -78,19 +82,20 @@ a {
     /*transition: 0.3s;*/
 }
 
-.navbar a:hover,
 .navbar a.active {
-    color: var(--accent-colour);
+    color: var(--accent-colour1);
+    font-weight: bold;
 }
 
 .navbar a:hover {
-    transition: 0.45s;
+    color: var(--accent-colour1);
+    transition: 0.45s ease;
 }
 
 
 /*
 .navbar a.active {
-    color: var(--accent-colour);
+    color: var(--accent-colour1);
     font-size: 1.7rem;
     margin-left: 4rem;
 }
@@ -104,7 +109,7 @@ a {
 
 #menu-icon {
     font-size: 3.5rem;
-    color: var(--accent-colour);
+    color: var(--accent-colour1);
     display: none;
 }
 
@@ -115,8 +120,16 @@ a {
 }
 
 .home-content h3 {
-    font-size: 4rem;
+    font-size: 3.8rem;
     font-weight: 700;
+}
+
+.home-content h3:nth-of-type(2) {
+    margin-bottom: 2rem;
+}
+
+span {
+    color: var(--accent-colour1);
 }
 
 .home-content h1 {
@@ -132,10 +145,17 @@ a {
     width: 4rem;
     height: 4rem;
     background: transparent;
-    color: var(--accent-colour);
+    color: var(--accent-colour1);
     border: 0.2rem solid;
-    border-color: var(--accent-colour);
+    border-color: var(--accent-colour1);
     border-radius: 0.5rem;
     font-size: 2rem;
-    margin: 1.5rem 1.5rem 3rem 0;
+    margin: 3rem 1.5rem 3rem 0;
+}
+
+.socials a:hover {
+    background: var(--accent-colour2);
+    color: var(--text-colour1);
+    transition: 0.45s ease;
+    box-shadow: 0 0 1rem var(--accent-colour3);
 }
