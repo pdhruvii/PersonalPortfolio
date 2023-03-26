@@ -270,19 +270,23 @@ span {
 }
 
 .extracurriculars-container .extracurriculars-box {
-    flex: 1 1 30rem;
+    flex-direction: column;
+    padding: 8rem 2rem 5rem;
+    box-sizing: border-box;
     background: darkslategrey;
-    padding: 3rem 2rem 1rem;
     border-radius: 2rem;
     text-align: center;
     border: 0.2rem solid transparent;
-    transition: 0.45s ease;
+    /*flex: 1 1 1rem;*/
+    /*transition: 0.45s ease;*/
 }
 
+
+/*
 .extracurriculars-container .extracurriculars-box:hover {
     border-color: #950740;
     transform: scale(1.02);
-}
+}*/
 
 .extracurriculars-box h3 {
     font-size: 2.5rem;
