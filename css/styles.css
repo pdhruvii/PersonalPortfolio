@@ -228,7 +228,7 @@ span {
 }
 
 
-/*TEST EC SECTION SWIPER JS*/
+/*TEST EC SECTION SWIPER JS
 
 .extracurriculars-section h2 {
     margin-bottom: 2rem;
@@ -249,14 +249,46 @@ span {
     padding: 3rem 2rem 4rem;
     text-align: center;
     box-shadow: 0px 3px 8px #c3073f;
-    /*transition: all 300ms ease-in-out;
-    transition: 0.45s ease;*/
 }
 
 .extracurriculars-container .extracurriculars-box:hover {
     box-shadow: 0px 8px 28px #c3073f;
     transform: scale(1.04);
-    /*background: var(--accent-colour1);
-    color: var(--text-colour1);*/
     transition: 0.45s ease;
+}*/
+
+.extracurriculars-section h2 {
+    margin-bottom: 2rem;
+}
+
+.extracurriculars-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.extracurriculars-container .extracurriculars-box {
+    flex: 1 1 30rem;
+    background: darkslategrey;
+    padding: 3rem 2rem 1rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: 0.2rem solid transparent;
+    transition: 0.45s ease;
+}
+
+.extracurriculars-container .extracurriculars-box:hover {
+    border-color: #950740;
+    transform: scale(1.02);
+}
+
+.extracurriculars-box h3 {
+    font-size: 2.5rem;
+}
+
+.extracurriculars-box p {
+    font-size: 1.3rem;
+    margin: 1rem 0 3rem;
 }
