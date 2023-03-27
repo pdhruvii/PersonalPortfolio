@@ -16,9 +16,10 @@ window.onscroll = () => {
             })
         }
 
-    })
+    });
 }
 
+/*===========Swiper.js Slider===========*/
 var swiper = new Swiper(".extracurriculars-container", {
     slidesPerView: 2,
     spaceBetween: 25,
@@ -39,4 +40,13 @@ var swiper = new Swiper(".extracurriculars-container", {
     },
     mousewheel: true,
     keyboard: true,
+});
+
+/*===========Typed.js Automated Text===========*/
+const typed = new Typed('.automated-text', {
+    strings: ['COE Student @ TMU', 'Software Engineer', 'Full-Stack Web Developer', 'Tech-Enthusiast', 'UI/UX Designer'],
+    typeSpeed: 75,
+    backSpeed: 75,
+    backDelay: 500,
+    loop: true
 });
