@@ -270,13 +270,13 @@ span {
 }
 
 .extracurriculars-container .extracurriculars-box {
-    flex-direction: column;
+    /*flex-direction: column;*/
     padding: 8rem 2rem 5rem;
     box-sizing: border-box;
-    background: darkslategrey;
+    background: transparent;
     border-radius: 2rem;
     text-align: center;
-    border: 0.2rem solid transparent;
+    border: 0.2rem solid var(--accent-colour1);
     /*flex: 1 1 1rem;*/
     /*transition: 0.45s ease;*/
 }

@@ -21,13 +21,17 @@ window.onscroll = () => {
 
 var swiper = new Swiper(".extracurriculars-container", {
     slidesPerView: 2,
-    spaceBetween: 30,
+    spaceBetween: 25,
     slidesPerGroup: 2,
     loop: true,
+    centerSlide: 'true',
+    fade: 'true',
+    grabCursor: 'true',
     loopFillGroupWithBlank: true,
     pagination: {
         el: ".swiper-pagination",
         clickable: true,
+        dynamicBullets: true,
     },
     navigation: {
         nextEl: ".swiper-button-next",
