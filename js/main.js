@@ -20,7 +20,7 @@ window.onscroll = () => {
 }
 
 /*===========Swiper.js Slider===========*/
-var swiper = new Swiper(".extracurriculars-container", {
+var swiper = new Swiper(".slide-content", {
     slidesPerView: 2,
     spaceBetween: 25,
     slidesPerGroup: 2,

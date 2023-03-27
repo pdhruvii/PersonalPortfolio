@@ -296,3 +296,57 @@ span {
     font-size: 1.3rem;
     margin: 1rem 0 3rem;
 }
+
+
+/*
+.swiper-button-next,
+.swiper-container-rtl .swiper-button-prev,
+.swiper-button-prev, 
+.swiper-container-rtl .swiper-button-next{
+    background-image: none;
+}
+
+.swiper-button-next,
+.swiper-button-prev, 
+.swiper-container-rtl .swiper-button-prev,
+.swiper-container-rtl .swiper-button-next{
+    fill: #000;
+}
+
+*/
+
+
+/*
+.work-section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: yellow;
+}*/
+
+.slide-container {
+    max-width: 1120px;
+    width: 100%;
+    background-color: yellow;
+    padding: 40px 10px;
+}
+
+.slide-content {
+    margin: 0 40px;
+    background-color: green;
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+.card {
+    border-radius: 25px;
+    background-color: red;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+}
