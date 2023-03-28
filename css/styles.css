@@ -342,7 +342,11 @@ span {
 .card {
     border-radius: 25px;
     background-color: var(--accent-colour1);
-    padding: 80px 40px;
+    padding: 10px 10px;
+}
+
+.card p {
+    font-size: 1.5rem;
 }
 
 .card-content {

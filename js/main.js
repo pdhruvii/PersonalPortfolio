@@ -21,9 +21,9 @@ window.onscroll = () => {
 
 /*===========Swiper.js Slider===========*/
 var swiper = new Swiper(".slide-content", {
-    slidesPerView: 2,
+    slidesPerView: 1,
     spaceBetween: 25,
-    slidesPerGroup: 2,
+    slidesPerGroup: 1,
     loop: true,
     centerSlide: 'true',
     fade: 'true',
