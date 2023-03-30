@@ -23,6 +23,7 @@
     --accent-colour3: #FF6077;
     --accent-colour4: #FF8295;
     --accent-colour5: #FFA4B4;
+    --pinkish-white: #FFF1FA;
 }
 
 html {
@@ -115,13 +116,42 @@ a {
 
 .home-section {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
+    /*background-color: green;*/
 }
 
-.home-content h3 {
-    font-size: 3.8rem;
+
+/*Hey, it's me!*/
+
+.home-content h2 {
+    font-size: medium;
+    font-weight: 600;
+    color: var(--accent-colour1);
+    line-height: 4.75;
+}
+
+
+/*Dhruvi Patel.*/
+
+.home-content h1 {
+    /*color: #c34863;*/
+    color: var(--pinkish-white);
+    /*color: #ffcccc;
+    color: #ffe1ef;*/
+    font-size: 6rem;
     font-weight: 700;
+    line-height: 0.75;
+}
+
+
+/*I'm a...*/
+
+.home-content h3 {
+    color: #cc4d5f;
+    font-size: 6rem;
+    font-weight: 700;
+    line-height: 1.7;
 }
 
 .home-content h3:nth-of-type(2) {
@@ -132,11 +162,15 @@ span {
     color: var(--accent-colour1);
 }
 
+
+/*ended up not using h1 for my name*/
+
+
+/*
 .home-content h1 {
-    font-size: 6rem;
-    font-weight: 1000;
-    line-height: 1.35;
-}
+    font-size: 3.8rem;
+    font-weight: 800;
+}*/
 
 .socials a {
     display: inline-flex;
