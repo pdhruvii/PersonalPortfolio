@@ -136,12 +136,26 @@ a {
 
 .home-content h1 {
     /*color: #c34863;*/
-    color: var(--pinkish-white);
+    /*color: var(--pinkish-white);*/
+    color: black;
     /*color: #ffcccc;
     color: #ffe1ef;*/
     font-size: 6rem;
     font-weight: 700;
     line-height: 0.75;
+}
+
+.home-content h1.glow {
+    animation: glow 3s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 3px #FF6077, 0 0 2.5px #FF6077, 0 0 2px #FF6077, 0 0 1.5px #FF6077, 0 0 1px #FF6077, 0 0 2px #FF6077, 0 0 2.5px #FF6077;
+    }
+    to {
+        text-shadow: 0 0 2.5px #FF6077, 0 0 2px #FF6077, 0 0 1.5px #FF6077, 0 0 1px #FF6077, 0 0 2px #FF6077, 0 0 2.5px #FF6077, 0 0 3px #FF6077;
+    }
 }
 
 
