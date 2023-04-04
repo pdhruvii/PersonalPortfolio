@@ -51,7 +51,7 @@ section {
     padding-left: 3rem;
     padding-right: 3rem;*/
     /*padding: 2rem 9%;*/
-    padding: 3rem 5%;
+    padding: 3.5rem 5%;
     background: var(--background-colour1);
     display: flex;
     justify-content: space-between;
@@ -77,9 +77,9 @@ a {
 */
 
 .navbar a {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     color: var(--text-colour1);
-    margin-left: 4rem;
+    margin-left: 2.3rem;
     /*transition: 0.3s;*/
 }
 
@@ -91,6 +91,23 @@ a {
 .navbar a:hover {
     color: var(--accent-colour1);
     transition: 0.45s ease;
+}
+
+.navbar a.resume-btn {
+    padding: 1rem;
+    background: transparent;
+    color: var(--accent-colour1);
+    border: 0.2rem solid;
+    border-color: var(--accent-colour1);
+    border-radius: 0.5rem;
+    /*margin: 3rem 1.5rem 3rem 0;*/
+}
+
+.navbar a.resume-btn:hover {
+    background: var(--accent-colour2);
+    color: var(--text-colour1);
+    transition: 0.45s ease;
+    box-shadow: 0 0 1rem var(--accent-colour3);
 }
 
 
@@ -117,6 +134,9 @@ a {
 .home-section {
     display: flex;
     justify-content: left;
+    /*margin-left: 6%;
+    margin-top: -5%;*/
+    padding-left: 18%;
     align-items: center;
     /*background-color: green;*/
 }

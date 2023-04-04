@@ -44,7 +44,8 @@ var swiper = new Swiper(".slide-content", {
 
 /*===========Typed.js Automated Text===========*/
 const typed = new Typed('.automated-text', {
-    strings: ['COE Student @ TMU', 'Software Engineer', 'Full-Stack Web Developer', 'Tech-Enthusiast', 'UI/UX Designer'],
+    //strings: ['COE Student @ TMU', 'Software Engineer', 'Full-Stack Web Developer', 'Tech-Enthusiast', 'UI/UX Designer'],
+    strings: ['code.'],
     typeSpeed: 75,
     backSpeed: 75,
     backDelay: 500,
